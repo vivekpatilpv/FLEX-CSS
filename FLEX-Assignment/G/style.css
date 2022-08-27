@@ -1,0 +1,118 @@
+.body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+  
+    position: absolute;
+
+}
+
+
+.container{
+
+ 
+    width: 30rem;
+    height: 14rem;
+    margin-top: -30rem;
+    margin-bottom: 0px;
+    margin-left: 33rem;
+
+
+
+
+    /* border-radius: 0.4rem; */
+    box-shadow: 0.4rem 0.4rem 0.4rem;
+    /* display: flex;
+    flex-direction: column;
+    align-content:space-around; */
+
+
+
+
+
+    /* From https://css.glass */
+background: rgba(71, 181, 255, 0.53);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.5px);
+-webkit-backdrop-filter: blur(3.5px);
+border: 1px solid rgba(71, 181, 255, 0.84);
+}
+
+.container .box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+  }
+
+.btn1:hover{
+    background-color: rgb(54, 204, 28) ;
+    opacity: 125%;
+}
+
+.btn2:hover{
+    background-color: rgb(248, 32, 32) ;
+    opacity: 125%;
+}
+
+
+header{
+    /* border: 0.01rem black;
+    border-style:solid; */
+ 
+    border-radius: 0.4rem;
+    padding-left: 2rem;
+}
+
+section{
+
+    /* border-radius: 0.4rem; */
+    padding-left: 2rem;
+    flex-grow: 1;
+
+    margin-top: 30px;
+}
+
+.footer{
+    display:flex;
+    border-radius: 0.4rem;
+    margin-left: auto;
+    margin-top: 22px;
+    margin-right: 43px;
+}
+
+.btn{
+    color: black;
+    background-color:  #1363DF;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    margin: 0.4rem;
+    width: 6rem;
+text-align: center;
+}
+
+
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url(https://wallpaperaccess.com/full/1358538.jpg);
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative ;
+  }
+  

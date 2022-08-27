@@ -1,0 +1,108 @@
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(60, 53, 53);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+
+
+
+
+
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+
+  .left{
+    background-color: rgb(60, 53, 53);
+    margin-left: auto;
+    display: inline;
+    margin-top: -50px;
+    position: relative;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 8px;
+    background: blueviolet;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .header-nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .header-nav li {
+    display: inline-block;
+
+    border-right: 1px solid #bbb;
+  }
+  
+  .header-nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+  }
+  .user .img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: pink;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .space{
+    padding: 2px 40px;
+  }
