@@ -16,15 +16,15 @@
   }
   main .navigation {
     position: relative;
-    width: 240px;
-    height: 360px;
+    width: 15rem;
+    height: 22.5rem;
     background: #fff;
-    border-radius: 10px;
+    border-radius: .625rem;
     overflow: hidden;
     transition: 0.5s;
   }
   main .navigation.active {
-    width: 80px;
+    width: 5rem;
   }
   main .navigation ul {
     position: absolute;
@@ -53,20 +53,20 @@
   main .navigation ul li a .icon {
     position: relative;
     display: block;
-    min-width: 80px;
-    height: 60px;
-    line-height: 70px;
+    min-width: 5rem;
+    height: 3.75rem;
+    line-height: 4.375rem;
     text-align: center;
   }
   main .navigation ul li a .icon i {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   main .navigation ul li a .title {
     position: relative;
     display: block;
     opacity: 1;
-    height: 60px;
-    line-height: 60px;
+    height: 3.75rem;
+    line-height: 3.75rem;
     white-space: nowrap;
     transition: .5s;
   }
