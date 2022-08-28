@@ -14,7 +14,7 @@
   main {
     position: relative;
   }
-  main .navigation {
+  main nav {
     position: relative;
     width: 15rem;
     height: 22.5rem;
@@ -23,25 +23,25 @@
     overflow: hidden;
     transition: 0.5s;
   }
-  main .navigation.active {
+  main nav.active {
     width: 5rem;
   }
-  main .navigation ul {
+  main nav ul {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
   }
-  main .navigation ul li {
+  main nav ul li {
     position: relative;
     list-style: none;
     width: 100%;
   }
-  main .navigation ul li:hover {
+  main nav ul li:hover {
     background: #efefef;
     
   }
-  main .navigation ul li a {
+  main nav ul li a {
     position: relative;
     display: block;
     width: 100%;
@@ -50,7 +50,7 @@
     color: #6843cf;
     font-weight: 600;
   }
-  main .navigation ul li a .icon {
+  main nav ul li a .icon {
     position: relative;
     display: block;
     min-width: 5rem;
@@ -58,10 +58,10 @@
     line-height: 4.375rem;
     text-align: center;
   }
-  main .navigation ul li a .icon i {
+  main nav ul li a .icon i {
     font-size: 1.5rem;
   }
-  main .navigation ul li a .title {
+  main nav ul li a .title {
     position: relative;
     display: block;
     opacity: 1;
@@ -70,7 +70,7 @@
     white-space: nowrap;
     transition: .5s;
   }
-  main .navigation.active ul li a .title {
+  main nav.active ul li a .title {
     opacity: 0;
   }
  

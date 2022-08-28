@@ -1,7 +1,8 @@
 
+ /* WHOLE NAVBAR SECTION STARTS  */
 
 
-
+ /* RIGHT HALF SECTION STARTS */
 ul {
     list-style-type: none;
     margin: 0;
@@ -13,56 +14,12 @@ ul {
     width: 100%;
   }
   
-
-
-
-
-
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: #4CAF50;
-  }
-
-
-  .left{
-    background-color: rgb(60, 53, 53);
-    margin-left: auto;
-    display: inline;
-    margin-top: -50px;
-    position: relative;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   .header {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: 0 8px;
+    padding: 0 .5rem;
     background: blueviolet;
-  }
-  
-  .logo {
-    font-size: 20px;
-    font-weight: bold;
   }
   
   .header-nav {
@@ -74,35 +31,54 @@ ul {
   
   .header-nav li {
     display: inline-block;
-
-    border-right: 1px solid #bbb;
+    border-right: .0625rem solid #bbb;
   }
   
   .header-nav a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: .875rem 1rem;
     text-decoration: none;
   }
-  
-  .user {
-    display: flex;
-    align-items: center;
-  }
-  .user .img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-left: 10px;
-    background-color: pink;
-  }
-  
+
   a {
     text-decoration: none;
     color: #fff;
   }
 
-  .space{
-    padding: 2px 40px;
+  li a:hover {
+    background-color: #111;
   }
+  /* RIGHT HALF SECTION ENDS */
+
+  
+ 
+  /* TITLE SECTION STARTS */
+h3{
+  display: inline;
+  color: #fff;
+  margin-left: 43.75rem;
+position: relative;
+margin-bottom: 0rem;
+margin-top: -1.25rem;
+}
+/* TITLE SECTION ENDS */
+
+
+/* LEFT HALF SECTION STARTS  */
+.left{
+  background-color: rgb(60, 53, 53);
+  margin-left: auto;
+  display: inline;
+  margin-top: -0.125rem;
+  position: relative;
+}
+
+.space{
+  padding: .125rem 2.5rem;
+  color: #fff;
+}
+/* LEFT HALF SECTION ENDS */
+
+/* WHOLE NAVBAR SECTION ENDS */
